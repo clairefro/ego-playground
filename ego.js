@@ -23,7 +23,8 @@ function getEgoAndHighlightText(text, egoWords, color) {
 
 function egoArrayToRegex(arr) {
   var re = "";
-  arr.forEach(ew => re += '((\\b' + ew + '\\b)|(\\b\''+ ew +'[^\\w\'-]))|');
+  arr.forEach(ew => re += '((\\b' + ew + '\\b)|(\\b' + ew +'[^\\w\'-]))|');
+  console.log(re.slice(0,-1))
   return re.slice(0,-1); // chop final '|'
 }
 

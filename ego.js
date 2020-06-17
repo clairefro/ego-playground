@@ -1,9 +1,9 @@
 
-var ew = ["i'm", "i'd", "i've",'i','me','my','mine','myself'];
-var ww = ["we'd", "we've",'our','ours','ourselves'];
-var yw = ["you", "you'd", "you've",'your','yours','yourself','yourselves','y\'all', 'yous'];
-var tw = ["her", "she", "hers",'he','him','his','himself','herself', 'she\'d','he\'d', 'he\'s', 'she\'s'];
-var them = ["they've", "they'd", "they",'them','their','theirs','themselves'];
+var ew = ["i'm", "i'd", "i've","i'll",'i','me','my','mine','myself'];
+var ww = ["we'd", "we've","we're","we'll",'our','ours','ourselves','let\'s'];
+var yw = ["you're", "you'd","you'll","you've",'your','yours','yourself','yourselves',"yous",'y\'all', 'you'];
+var tw = ["she'll","she'd","he'll","he'd","he's","she's","her", "she", "hers",'he','him','his','himself','herself', 'she\'d','he\'d', 'he\'s', 'she\'s'];
+var them = ["they've", "they'd","they'll", "they're","they",'them','their','theirs','themselves'];
 
 var text = document.body.textContent;
 var body = document.querySelector('body');
